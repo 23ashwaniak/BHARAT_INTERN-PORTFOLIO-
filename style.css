@@ -1,0 +1,146 @@
+h1 {
+    color: purple;
+    font-size: 80px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.blink {
+    animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+img {
+    border-radius: 50px;
+}
+
+img:hover {
+    box-shadow: 0 0 5px 5px rgba(0, 140, 186, 0.5);
+}
+
+nav {
+    display: flex;
+    font-size: 40px;
+    justify-content: space-around;
+    color: blueviolet;
+}
+
+hr {
+    border-radius: 20px;
+    height: 10px;
+    width: 95%;
+    background-color: aqua;
+}
+
+.about {
+    display: flex;
+}
+
+#b {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.up {
+    display: flex;
+    padding-top: 30px;
+}
+
+.upa {
+    width: 30%;
+    margin-left: 80px;
+}
+
+.upb {
+    width: 70%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.resume {
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.section {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.x {
+    height: 350px;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: lightblue;
+}
+
+.x:hover {
+    box-shadow: 0 0 20px 10px rgba(0, 140, 186, 0.5);
+}
+
+
+.y {
+    height: 350px;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: lightpink;
+}
+
+.y:hover {
+    box-shadow: 0 0 20px 10px rgba(0, 140, 186, 0.5);
+}
+
+.z {
+    height: 350px;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: lightgreen;
+}
+
+.z:hover {
+    box-shadow: 0 0 20px 10px rgba(0, 140, 186, 0.5);
+}
+
+h3 {
+    font-size: 45px;
+    text-decoration: underline;
+    text-shadow: 1cm;
+    text-align: center;
+}
+
+#resume {
+    font-size: 25px;
+
+}
+
+#sec {
+    font-size: 30px;
+}
+
+.footer {
+    background-color: black;
+    color: aqua;
+    height: 320px;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+#foot {
+    display: flex;
+    font-size: 30px;
+    justify-content: space-evenly;
+}
